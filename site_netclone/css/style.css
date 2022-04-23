@@ -1,0 +1,105 @@
+/*Linha root de declaraçao de VARIAVEIS (var) para cores 
+padrão de um site */
+
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+/* Este é o padrão RESET no css,sempre comece com esta
+linha de comando */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*alinhar e ajustar menu */
+}
+
+header .logo {
+    margin-left: 8px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times, serif;
+    font-size: 40px;
+}
+
+header nav a{
+        text-decoration: none;
+        color: #AAAA;
+        margin-right: 10px;
+}
+
+/* Padrão para passar o mouse e textos do menu mudar de cor */
+
+header nav a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.capa{
+    font-size: 14px;
+    background: url(../img/capa-house.jpg);
+
+    height: 500px ;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.capa .descricao{
+    margin-top: 15px;
+    margin-bottom: 90px;
+}
+
+.capa .titulo{
+    margin-top: 20%;
+    font-size: 40px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel{
+    margin-top: 5px;
+}

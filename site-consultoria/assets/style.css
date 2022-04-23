@@ -1,0 +1,234 @@
+body {
+    font-family: sans-serif;
+}
+
+#bloco-1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/img/pexels-cottonbro-5077048.jpg);
+    margin-top: 50px;
+    height: 600px;
+}
+.indice{
+    position: relative;
+    padding: 5rem;    
+}
+#bloco-1 h1 {
+    font-family: 'Oswald', sans-serif; 
+    font-weight: bolder;
+    width: 300px;
+    color: #fb6e42;
+    font-size: 4.5rem;
+}
+#bloco-1 h5 {
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: bold;
+    font-size: 12px;
+    width: 80px;
+}
+#bloco-1 button{
+    background-color: black;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 0.5rem;
+    border-style: none;
+    margin: 30px auto 0 0;
+    padding: 10px;
+}
+
+#bloco-1 button:hover{
+        background-color: #ffffff;
+        color:black;      
+}
+
+#bloco-2 .container{
+    max-width: 100%;
+}
+
+.bl2-fundo{
+    color: #ffffff;
+    background-color: #fb6e42;
+    height: 290px;
+    width: 100%;
+}
+
+.bl2-fundo h2{
+    width: auto;
+    font-size: 2.75rem;
+    font-weight: 400;
+    text-transform: none;
+    padding: 1rem;
+    font-family: 'Oswald', sans-serif;  
+}
+
+.card-img-top{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#bloco-3{
+    background-color: #f2f2f2;
+}
+
+#bloco-3 .card-group{
+    gap: 30px;
+    margin-top: -150px;
+    width: auto;
+    margin-left: auto;
+    justify-content: flex-start;
+    padding: 5rem;
+}
+
+#bloco-3 .container{
+    background-color: #f2f2f2;
+    padding-bottom: 2rem;  
+}
+#bloco-3 .card-text{
+    color: #555c66 !important;
+    font-style: italic;
+    margin: 20px 9px 0;
+    font-size: 12px;
+}
+
+#bloco-4 .container{
+    background-color: #f2f2f2;
+}
+
+#bloco-4 .bloco4-direita{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#bloco-4 .bloco4-esquerda{
+    display: grid;
+    align-content: space-evenly;
+    padding: 10px;
+}
+
+#bloco-4 h2 {
+    font-family: 'Oswald', sans-serif; 
+    font-weight: bolder;
+    width: 200px;
+    color: black;
+    font-size: 1.7rem;
+    text-align: left;
+    
+}
+#bloco-4 p {
+        font-size: 1rem;
+        font-style: italic;
+        margin: 20px auto 0 0;
+        text-align: left;
+        width: 300px;
+}
+#bloco-4 button{
+    background-color: black;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 0.5rem;
+    border-style: none;
+    margin: 30px auto 0 0;
+    padding: 10px;
+}
+
+#bloco-4 button:hover{
+        background-color: #ffffff;
+        color:black;      
+}
+
+#bloco-5 .bloco5-esquerda {
+    display: grid;
+    align-content: space-evenly;
+    padding: 10px;
+    justify-content: end;
+}
+
+.bloco5-esquerda h6{
+    font-size: 0.7rem;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+    width: 250px;
+}
+
+#bloco-5 h2{
+    font-size: 3rem;
+    color: #fb6e42 !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    width: 350px;
+    margin: 23px 0;
+}
+
+#bloco-5 p {
+    font-size: 0.6rem;
+    font-style: normal;
+    margin: 10px auto 0 0;
+    text-align: left;
+    width: 350px;
+    font-weight: bold;
+}
+
+.list-group-item{
+    background-color: #cec7c7f2;
+    width: 500px;
+    padding:10px;
+}
+
+#bloco-5 button{
+    background-color: black;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    border-style: none;
+    font-size: 0.7rem;
+    margin: 10px auto 0 0;
+    padding: 8px 22px;
+    margin-bottom: 50px;
+}
+
+#bloco-5 button:hover{
+        background-color: #ffffff;
+        color:black;      
+}
+
+footer {
+    background-color: #fb6e42;
+    height: 300px;
+    padding-top: 80px;
+}
+
+footer img {
+    margin-bottom: 40px;
+}
+
+footer .nav-link {
+    color: #fff !important;
+    font-size: 12px;
+    padding: 5px;
+    
+}
+
+footer p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff !important;
+    font-size: 12px;
+}
+
+.icons{
+    padding: 0px;
+    color: #fff !important;
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+}
