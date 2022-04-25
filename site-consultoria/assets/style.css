@@ -5,7 +5,7 @@ body {
 #bloco-1{
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/assets/img/pexels-cottonbro-5077048.jpg);
+    background-image: url(img/pexels-cottonbro-5077048.jpg);
     margin-top: 50px;
     height: 600px;
 }
